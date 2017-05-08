@@ -1,6 +1,6 @@
 # keepasshttp
 
-Install dependencies and libs to run KeepassHttp.
+Install dependencies and libs to run KeepassHttp plugin into Keepass2 (see http://keepass.info/).
 
 ## Requirements
 
