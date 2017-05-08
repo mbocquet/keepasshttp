@@ -1,0 +1,12 @@
+# tasks file for keepasshttp
+---
+- name: mono-complete installation
+  apt:
+    name: mono-complete
+    update_cache: no
+
+- name: KeepassHttp plugin installation
+  get_url:
+    url: https://github.com/pfn/keepasshttp/raw/master/KeePassHttp.plgx
+    dest: /usr/lib/keepass2/Plugins/
+    mode: 0644
