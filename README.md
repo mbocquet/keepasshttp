@@ -4,7 +4,7 @@ Install dependencies and libs to run KeepassHttp plugin into Keepass2 (see http:
 
 ## Requirements
 
-None.
+Keepass2.
 
 ## Role Variables
 
