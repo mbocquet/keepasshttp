@@ -10,3 +10,4 @@
     url: https://github.com/pfn/keepasshttp/raw/master/KeePassHttp.plgx
     dest: /usr/lib/keepass2/Plugins/
     mode: 0644
+...
