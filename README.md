@@ -1,6 +1,7 @@
 # keepasshttp
 
-Install dependencies and libs to run KeepassHttp plugin into Keepass2 (see http://keepass.info/).
+Ansible role to install dependencies and libs to run the KeepassHttp plugin
+under Keepass2 (see http://keepass.info/).
 
 ## Requirements
 
@@ -14,17 +15,21 @@ None.
 
 None.
 
+## Install this role as submodule of an existing GIT repository
+
+`git submodule add https://git.sekoya.org/mb/keepasshttp.git roles/keepasshttp`
+
 ## Example Playbook
 
     - hosts: workstations
       roles:
-         - mbocquet.keepasshttp
+         - keepasshttp
 
 or
 
     - hosts: workstations
       roles:
-         - { role: mbocquet.keepasshttp, x: 42 }
+         - { role: keepasshttp, x: 42 }
 
 if any variables comes in the future fot this role.
 
