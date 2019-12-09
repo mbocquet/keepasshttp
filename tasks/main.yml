@@ -3,6 +3,7 @@
 - name: mono-runtime
   apt:
     name: mono-runtime
+    force_apt_get: yes
     update_cache: no
 
 - name: plugin
