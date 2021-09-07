@@ -3,11 +3,10 @@
 - name: mono-runtime
   apt:
     name: mono-runtime
-    update_cache: no
+    update_cache: false
 
 - name: plugin
   get_url:
     url: https://github.com/pfn/keepasshttp/raw/master/KeePassHttp.plgx
     dest: /usr/lib/keepass2/Plugins/
     mode: 0644
-...
